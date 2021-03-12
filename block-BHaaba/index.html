@@ -1,0 +1,72 @@
+<!-- ### Exercise 2
+
+1. Create a simple page having a header, main content, and a footer.
+
+2. Inside the header keep the brand name to the left and all the navigation to the right.
+
+3. Inside the main content crate three columns. In each column take one image and a paragraph below the image.
+4. Using float is necessary. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Using Floats</title>
+    <link rel="stylesheet" href="./assets/stylesheet/style.css">
+</head>
+<body>
+    <header>
+        <img class="brand-logo" src="./assets/media/alt campus logo.png" alt="brand logo">
+        <nav class="nav">
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PROGRAM</a>
+        </nav>
+    </header>
+    <div class="float-clear"></div>
+
+    <main>
+        <section class="section-1" class="clearfix">
+            <img class="lab-image" src="./assets/media/lab image.jpg" alt="">
+            <p class="data-1">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Voluptatibus excepturi ad,
+            quae unde aspernatur quam, tenetur placeat,
+            qui aperiam ducimus perspiciatis? Laudantium
+            beatae mollitia illo suscipit architecto officia
+            officiis pariatur.</p>
+        </section>
+
+        <section class="section-1" class="clearfix">
+            <img class="pencil-image" src="./assets/media/pencil image.jpg" alt="">
+            <p class="data-1">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Voluptatibus excepturi ad,
+            quae unde aspernatur quam, tenetur placeat,
+            qui aperiam ducimus perspiciatis? Laudantium
+            beatae mollitia illo suscipit architecto officia
+            officiis pariatur.</p>
+        </section>
+
+        <section class="section-1" class="clearfix">
+            <img class="mountain-image" src="./assets/media/mountain iamge.webp" alt="">
+            <p class="data-1">Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Voluptatibus excepturi ad,
+            quae unde aspernatur quam, tenetur placeat,
+            qui aperiam ducimus perspiciatis? Laudantium
+            beatae mollitia illo suscipit architecto officia
+            officiis pariatur.</p>
+        </section>
+    </main>
+    <div class="float-clear"></div>
+
+   <footer class="footer">
+        <div class="links">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+             <a href="#">Linkdin</a>
+        </div>
+   </footer>
+</body>
+</html>
