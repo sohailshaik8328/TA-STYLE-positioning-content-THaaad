@@ -1,0 +1,70 @@
+header{
+    background-color: rgb(253,206,69);
+    height: 60px;
+}
+.brand-logo{
+    width: 150px;
+    float: left;
+    /* vertical-align: middle; */
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.nav{
+    margin-right: 150px;
+}
+.nav a{
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: purple;
+    text-decoration: none;
+    
+}
+.float-clear{
+    clear: both;
+}
+.section-1{
+    width: 400px;
+    margin: 13px;
+    float: left;
+    
+}
+.lab-image{
+    width: 400px;
+}
+.data-1{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.938);
+    font-weight: 520;
+    line-height: 20px;
+}
+.clearfix::before, .clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.footer{
+    background-color: rgb(33,57,106);
+    height: 50px;
+    text-align: center;
+    padding: 10px;
+
+}
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    margin: 10px;
+}
+.links{
+    margin-top: 15px;
+}
+.pencil-image, .mountain-image{
+    width: 400px;
+    height: 270px;
+}
